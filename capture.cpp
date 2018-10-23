@@ -14,7 +14,7 @@ int main() {
 	Mat frame;
 	int i = 1;
 	if (!cap.isOpened()) {
-		cerr << "ÎÒÇÃÄãÂð" << endl;
+		cerr << "none" << endl;
 	}
 	while (1) {
 		cap >> frame;
