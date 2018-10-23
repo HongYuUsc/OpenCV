@@ -5,7 +5,7 @@ capture.cpp is used to capture the face in an image
 
 convert.cpp is used to convert a RGB image into gray image and resize the image.
 
-cv.cpp is used to recognize a face in the video of a computer, before run this code, please download training database in https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
+cv.cpp is used to recognize a face on the camera of your computer, before run this code, please download training database in https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html, if you want to recognize your own face, please make sure to incorporate your own face image into the database
 
 Gaussianfiltering.cpp is used to achieve Gaussianfilter in an image
 
