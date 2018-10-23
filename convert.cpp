@@ -10,7 +10,7 @@ int main() {
 	CascadeClassifier face_cascade;
 	String text_face = string("G:\\haarcascade_frontalface_alt.xml");
 	if (!face_cascade.load(text_face)) {
-		cout << "ÎÒÇÃÄãÂð" << endl;
+		cout << "none" << endl;
 	}
 	Mat frame;
 	frame = imread("G:/s42/5.jpg");
